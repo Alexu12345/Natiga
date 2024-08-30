@@ -5,7 +5,7 @@ function Cl() {
         document.getElementById('bttn').value = 'جاري التحقق من الرقم القومي';
     }, 500);
     setTimeout(() => {
-        if(Code.value == 30205080200655 || '30205080200655'){
+        if(Code.value == 30205080200655 || Code.value == '30205080200655'){
         document.getElementById('Mr').style.display='none';
         document.getElementById('box-body').style.display='none';
         document.getElementById('Mn').style.display='block';
